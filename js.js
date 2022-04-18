@@ -70,3 +70,24 @@ console.log(full.sayHello());
 
 // behtarin rafesh barayeh estefadeh az constructotor
 //estefadeh az class hast
+
+
+class Petter{
+constructor(kname,bname,sen){
+    this.kname=kname;
+    this.bname=bname;
+    this.sen=sen;
+
+
+}
+    asmHa(){
+        return `${this.kname} ${this.bname} ${this.sen}`
+
+    }
+}
+let famil=new Petter("ali","kazem","heydar")
+;
+console.log(famil.asmHa());
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++

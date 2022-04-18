@@ -46,4 +46,27 @@ console.log(fully.get());
 
 
 /// ravashe sahihesh hamineh ke az prototype astefadeh konim
-//
+//++++++++++++++++++++++ OR++++++++++++++++++
+
+
+
+class Pesar{
+    constructor(nam,lname,age){
+        this.nam=nam;
+        this.lname=lname;
+        this.age=age;
+        
+    }
+
+    sayHello(){
+
+        return `${this.nam} ${this.lname} ${this.age}`
+    }
+
+}
+let full=new Pesar("sherv","nj",25);
+
+console.log(full.sayHello());
+
+// behtarin rafesh barayeh estefadeh az constructotor
+//estefadeh az class hast
